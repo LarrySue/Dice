@@ -498,6 +498,8 @@
             this.Controls.Add(this.d20Btn);
             this.Controls.Add(this.d8Btn);
             this.Controls.Add(this.d6Btn);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.Text = "骰子娘";
             ((System.ComponentModel.ISupportInitialize)(this.d4CountNud)).EndInit();
