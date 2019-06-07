@@ -1,4 +1,4 @@
-﻿namespace 骰子娘
+﻿namespace DiceForCOC
 {
     partial class MainForm
     {

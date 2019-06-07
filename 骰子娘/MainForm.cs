@@ -2,13 +2,14 @@
 using System.Security.Cryptography;
 using System.Windows.Forms;
 
-namespace 骰子娘
+namespace DiceForCOC
 {
     public partial class MainForm : Form
     {
         public MainForm()
         {
             InitializeComponent();
+            Text += " " + Application.ProductVersion;
         }
 
         private int GetRandomDiceResult(int count, int dice, int adjust)
